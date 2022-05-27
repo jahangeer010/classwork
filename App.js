@@ -50,7 +50,7 @@ const  commentsAPI=()=>{
             };
   return (
     <div>App{console.log("yahaa==>>",dataa)}
-    {dataa.map((e)=>(e.id,e.title))}
+    {dataa.map((e)=>(e.id,e.title,e.body))}
        <button onClick={postAPI}>posts</button>
        <button onClick={commentsAPI}>comments</button>
        <button onClick={albumsAPI}>albums</button>
